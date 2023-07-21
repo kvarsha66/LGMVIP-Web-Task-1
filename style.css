@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Italic;
+}
+
+h1 {
+    text-align: center;
+}
+
+#todolist-container {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: #cec1b4;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+#task-input {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#add-task-btn {
+    margin-top: 30px;
+    padding: 18px;
+    width: 100%;
+    background-color: hsl(235, 39%, 49%);
+    color: #e6f4f0;
+    border: solid-black;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#task-list {
+    list-style-type: circle;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-item.completed label {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.task-item .delete-btn {
+    background-color: #380629;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 25px;
+    border-radius: 4px;
+}
